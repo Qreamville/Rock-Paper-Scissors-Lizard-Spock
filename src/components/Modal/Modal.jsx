@@ -1,12 +1,12 @@
 import React from "react";
-import rules from "../../assets/images/image-rules.svg";
+import rules from "../../assets/images/image-rules-bonus.svg";
 
 const Modal = ({ setModal }) => {
   return (
     <div className="modal p-4">
-      <div className="modal-content bg-white h-1/2 p-4 flex items-center justify-center">
+      <div className="modal-content bg-white h-2/3 px-6 flex items-center justify-center">
         <div className="modal-img p-4">
-          <img src={rules} alt="rules" />
+          <img src={rules} alt="rules" className="max-w-full h-auto" />
         </div>
       </div>
       <button

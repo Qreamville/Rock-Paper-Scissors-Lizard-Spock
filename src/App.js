@@ -4,7 +4,7 @@ import { HashRouter } from "react-router-dom";
 
 function App() {
   const [score, setScore] = useState(0);
-  const [modal, setModal] = useState(false);
+  const [modal, setModal] = useState(true);
 
   useEffect(() => {
     const scoreItem = JSON.parse(localStorage.getItem("score"));
