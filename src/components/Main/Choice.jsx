@@ -9,6 +9,7 @@ import spock from "../../assets/images/icon-spock.svg";
 const Choice = ({ setUserChoice }) => {
   const navigate = useNavigate();
 
+  // onClick function to go to main game
   const onClick = (e) => {
     setUserChoice(e.target.id);
     navigate("/game");
