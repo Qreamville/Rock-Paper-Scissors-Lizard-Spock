@@ -136,7 +136,7 @@ const Game = ({ userChoice, setScore }) => {
     <main>
       <div className="flex items-center justify-center gap-20 flex-row">
         <div>
-          <h4>YOU</h4>
+          <h4 className="text-white">YOU</h4>
           <div className="game-image1 cursor-pointer">
             <div>
               <img src={userImage} alt="user" className="w-3/5 h-auto" />
@@ -144,7 +144,7 @@ const Game = ({ userChoice, setScore }) => {
           </div>
         </div>
         <div>
-          <h4>OPPONENT</h4>
+          <h4 className="text-white">OPPONENT</h4>
           <div className="game-image2 cursor-pointer">
             <div>
               {countDown === 0 ? (
@@ -162,7 +162,7 @@ const Game = ({ userChoice, setScore }) => {
       </div>
       {endGame && (
         <div className="text-center">
-          <p className="text-center text-2xl mb-5">{endGame}</p>
+          <p className="text-center text-2xl mb-5 text-white">{endGame}</p>
           <button
             className="bg-white px-4 py-2 rounded-md font-semibold"
             onClick={playAgainBtn}
