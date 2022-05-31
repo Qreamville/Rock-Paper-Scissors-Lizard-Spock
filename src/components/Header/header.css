@@ -5,3 +5,7 @@
 .header__main {
   border: 1px solid #fff;
 }
+
+.header-btn button {
+  border: 1px solid #706565;
+}
