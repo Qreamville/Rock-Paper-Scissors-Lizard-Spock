@@ -7,14 +7,14 @@ function App() {
   const [modal, setModal] = useState(false);
 
   useEffect(() => {
-    const scoreItem = JSON.parse(localStorage.getItem("score"));
+    const scoreItem = JSON.parse(localStorage.getItem("spock"));
     if (scoreItem) {
       setScore(scoreItem);
     }
   }, []);
 
   useEffect(() => {
-    localStorage.setItem("score", JSON.stringify(score));
+    localStorage.setItem("spock", JSON.stringify(score));
   }, [score]);
 
   return (
