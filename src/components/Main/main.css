@@ -2,7 +2,9 @@
 .line2-image1,
 .line2-image2,
 .line3-image1,
-.line3-image2 {
+.line3-image2,
+.game-image1,
+.game-image2 {
   border-radius: 50%;
   height: 6rem;
   width: 6rem;
@@ -31,11 +33,21 @@
   background-color: red;
 }
 
+.game-image1 {
+  background-color: green;
+}
+
+.game-image2 {
+  background-color: green;
+}
+
 .line1-image1 div,
 .line2-image1 div,
 .line2-image2 div,
 .line3-image1 div,
-.line3-image2 div {
+.line3-image2 div,
+.game-image1 div,
+.game-image2 div {
   border-radius: 50%;
   height: 4rem;
   width: 4rem;

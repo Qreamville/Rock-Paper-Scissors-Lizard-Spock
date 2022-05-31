@@ -22,7 +22,7 @@ function App() {
       <div className="App flex justify-start flex-col items-center">
         {modal && <Modal setModal={setModal} />}
         <Header score={score} setModal={setModal} />
-        <Main />
+        <Main setScore={setScore} />
         <Footer />
       </div>
     </HashRouter>
