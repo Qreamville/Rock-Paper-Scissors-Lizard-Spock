@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
-import { Modal } from "./components";
+import { Modal, Header } from "./components";
 import { HashRouter } from "react-router-dom";
 
 function App() {
   const [score, setScore] = useState(0);
-  const [modal, setModal] = useState(true);
+  const [modal, setModal] = useState(false);
 
   useEffect(() => {
     const scoreItem = JSON.parse(localStorage.getItem("score"));
@@ -20,6 +20,7 @@ function App() {
   return (
     <HashRouter>
       <div className="App flex justify-start flex-col items-center">
+        <Header score={score} />
         {modal && <Modal setModal={setModal} />}
       </div>
     </HashRouter>
