@@ -1,0 +1,47 @@
+.line1-image1,
+.line2-image1,
+.line2-image2,
+.line3-image1,
+.line3-image2 {
+  border-radius: 50%;
+  height: 6rem;
+  width: 6rem;
+
+  display: grid;
+  place-items: center;
+}
+
+.line1-image1 {
+  background-color: darkorange;
+}
+
+.line2-image1 {
+  background-color: aqua;
+}
+
+.line2-image2 {
+  background-color: blue;
+}
+
+.line3-image1 {
+  background-color: blueviolet;
+}
+
+.line3-image2 {
+  background-color: red;
+}
+
+.line1-image1 div,
+.line2-image1 div,
+.line2-image2 div,
+.line3-image1 div,
+.line3-image2 div {
+  border-radius: 50%;
+  height: 4rem;
+  width: 4rem;
+
+  display: grid;
+  place-items: center;
+  background-color: #fff;
+  box-shadow: inset 1px 6px 2px rgba(0, 0, 0, 0.2);
+}
