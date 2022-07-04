@@ -1,5 +1,5 @@
 
-# Frontend Mentor - Rock, Paper, Scissors
+# Frontend Mentor - Rock, Paper, Scissors, Lizard, Spock
 
 ## Live Site [RPSLS](https://qreamville.github.io/Rock-Paper-Scissors-Lizard-Spock/)
 ## Welcome! 👋
